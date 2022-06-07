@@ -1,0 +1,67 @@
+.container {
+  background-image: url("https://images.pexels.com/photos/269790/pexels-photo-269790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.containerDouble {
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  grid-gap: 18px;
+  padding: 4px 80px;
+}
+
+.containerDouble img {
+  width: 400px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  box-shadow: 0px 0px 15px 15px #2e2838;
+  margin-left: 250px;
+}
+
+.columntitle {
+  width: 50%;
+}
+
+.columninfo {
+  width: 50%;
+}
+
+.table {
+  border: 5px solid #6948ab;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+.table td,
+table th {
+  border: 1px solid #6948ab;
+  padding: 2px 3px;
+}
+
+.backButton {
+  border: 1px solid #6948ab;
+  box-shadow: 10px 10px 5px #6948ab;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6948ab;
+  margin: 8px 8px 8px 40px;
+  padding: 4px 16px;
+  width: auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.backButton:hover {
+  box-shadow: 0px 2px 4px grey;
+}
+
+.link {
+  text-decoration: none;
+  color: #6948ab;
+}

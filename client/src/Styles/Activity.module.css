@@ -1,0 +1,47 @@
+.table {
+    border: 2px solid #000;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table td, .table th {
+    border: 1px solid #000;
+    padding: 4px 4px;
+    background-color: #fff;
+}
+.table tbody td {
+    font-size: 13px;
+}
+
+.backButton{
+    border: 1px solid white;
+    box-shadow: 0px 0px 3px grey;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6948ab;
+    margin: 8px 8px 8px 8px;
+    padding: 4px 16px;
+    width: auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.backButton:hover{
+    box-shadow: 0px 2px 4px #bbb;
+}
+
+.link{
+    text-decoration: none;
+    color: #6948ab;
+}
+
+.container{
+    background-color: rgb(68, 188, 37);
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 16px;
+}
+

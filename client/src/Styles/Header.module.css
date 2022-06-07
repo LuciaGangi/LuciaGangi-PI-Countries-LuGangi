@@ -1,0 +1,105 @@
+.navbar {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 50px 30px;
+  box-shadow: 0px 4px 20px #000;
+  background-image: url("https://images.pexels.com/photos/893126/pexels-photo-893126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: 1200px;
+  margin-bottom: 16px;
+}
+
+/*.lightButton{
+    border: 1px solid rgb(186, 14, 14);
+    box-shadow: 0px 0px 3px #aaa;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    color: darkblue;
+    background: rgba(241, 241, 241, 0.856);
+    margin: 8px 8px; 
+    padding: 4px 16px;
+    width: auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.lightButton:hover{
+    box-shadow: 0px 2px 4px rgb(54, 54, 54);
+}*/
+
+.orderButton {
+  border: 1px solid #fff;
+  box-shadow: 20px 10px 10px #2e1e4f;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3321d1;
+  background: #f5f5f5c3;
+  margin: 10px 10px;
+  padding: 7px 10px;
+  width: auto;
+  display: flexbox;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.orderButton:hover {
+  box-shadow: 0px 2px 4px #464546;
+}
+
+.selectbox {
+  position: relative;
+  border-radius: 6px;
+  height: 48px;
+  margin: 8px 15px 20px 35px;
+  padding: 8px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  box-shadow: 5px 5px 4px #565656;
+  color: #570cec;
+  cursor: pointer;
+}
+
+.selectbox:hover {
+  box-shadow: 0px 2px 5px #2e1e4f;
+}
+
+.searchInput {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 48px;
+  background: #fff;
+  box-shadow: 10px 10px 8px #2e1e4f;
+  border-radius: 5px;
+  color: #2e1e4f;
+  transition: 0.4s;
+  font-size: 18px;
+}
+
+.searchInput:hover {
+  box-shadow: 0px 2px 2px #2e1e4f;
+}
+
+.resetDiv {
+  align-self: center;
+  justify-self: center;
+}
+
+.resetButton {
+  border: 1px solid #2e1e4f;
+  box-shadow: 25px 15px 3px #6948abd0;
+  border-radius: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f175e;
+  background: #ffbf00;
+  margin: 8px 10px;
+  padding: 40px 15px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.resetButton:hover {
+  box-shadow: 0px 2px 2px #2e1e4f;
+}
