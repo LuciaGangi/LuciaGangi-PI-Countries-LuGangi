@@ -83,7 +83,7 @@ export function Header() {
             className={style.resetButton}
             onClick={() => dispatch(clearDetail())}
           >
-            <h2>Henry Países</h2>
+            <h2>Países</h2>
           </button>
         </Link>
       </div>
